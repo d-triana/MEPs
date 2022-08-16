@@ -36,9 +36,7 @@ lang_codes = pd.read_csv(r'language_codes.csv')
 # Create object to know how many tweets per language are in the DataBase
 tweets_per_language = (tweets_text['lang'].value_counts())
 
-# %%   # Language detection using API key.
-# google_key: str = 'AIzaSyBV0FipNP72kt_EDkf134WsD2qqDsCzBWg'
-# api_key: str = '2a1a1a94b1f39fbfc48a5e39b9cda1f3'
+
 
 # %%
 #german = tweets_text.query('lang =="de"')
